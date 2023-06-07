@@ -87,5 +87,50 @@ console.log("the circumference is: ", circumference);
 
 */
 
-//////////////////MATH////////////////////
+/* //////////////////MATH////////////////////
+let x = 3.14;
+let y = 2.79;
+let z = 9.67;
+let maximum;
+let minimum;
 
+//x = Math.round(x);
+// x = Math.floor(x);
+// x = Math.pow(x,3);
+// x = Math.sqrt(x);
+// x = Math.abs(x);
+x = Math.PI;
+
+maximum = Math.max(x, y, z);
+minimum = Math.min(x, y, z);
+console.log(minimum);
+console.log(maximum);
+console.log(x);
+
+*/
+
+//c = a(sqrt) + b(sqrt);
+
+// let a;
+// let b;
+// let c;
+
+// a = window.prompt("enter side a");
+// a = Number(a);
+// b = window.prompt("enther side b");
+// b = Number(b);
+
+// c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+// console.log(c);
+
+////////////////////// SAMPLE PROJECT ////////////////////////////
+document.getElementById("submitButton").onclick = function(){
+    a = document.getElementById("aTextBox").value;
+    a = Number(a);
+    b = document.getElementById("bTextBox").value;
+    b = Number(b);
+
+    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+    document.getElementById("cLabel").innerHTML = "Side C:" + c;
+}
