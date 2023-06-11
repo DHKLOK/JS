@@ -136,7 +136,7 @@ document.getElementById("submitButton").onclick = function(){
 }
 */
 
-/*
+
 /////////////////// COUNTER //////////////////////////
 let count = 0;
 
@@ -156,5 +156,3 @@ document.getElementById("increaseBtn").onclick = function(){
     document.getElementById("countLabel").innerHTML = count;
 
 }
-
-*/
