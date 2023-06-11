@@ -1,5 +1,9 @@
+body {
+    background-color: #9c15f0; /* Replace with your desired color */
+  }
 
-#countLabel{
+
+  #countLabel{
     display: block;
     text-align: center;
     font-size: 50px;
