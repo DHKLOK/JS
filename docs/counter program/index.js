@@ -136,7 +136,6 @@ document.getElementById("submitButton").onclick = function(){
 }
 */
 
-
 /////////////////// COUNTER //////////////////////////
 let count = 0;
 
