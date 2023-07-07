@@ -8,9 +8,12 @@ function capitalize(element, index, array){
     array[index] = element[0].toUpperCase() + element.substring(1)
 }
 
-for (let student of students){
-    console.log(student);
+function print(element){
+    console.log(element);
+
 }
+
+students.forEach(print);
 
 let prices = [123.32, 4141.16, 5939.89, 234.42, 20.52, 40.09];
 let total = 0;
