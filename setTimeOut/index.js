@@ -11,6 +11,14 @@ function doIT(){
     alert("DO IT")
 }
 
-setTimeout(firstMessage, 3000);
-setTimeout(secondMessage, 10000);
-setTimeout(thirdMessage, 15000);
+let timer1 = setTimeout(firstMessage, 3000);
+let timer2 = setTimeout(secondMessage, 10000);
+let timer3 = setTimeout(thirdMessage, 15000);
+
+document.getElementById("buyButton").onclick = function() {
+    clearTimeout(timer1);
+    clearTimeout(timer2);
+    clearTimeout(timer3);
+    alert("Thanks for buying");
+
+}
