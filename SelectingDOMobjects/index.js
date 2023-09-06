@@ -26,3 +26,6 @@ dessertsArray.forEach(dessert => {
   dessert.style.backgroundColor = "blue";
 });
 
+
+console.log(dessertsArray);
+
