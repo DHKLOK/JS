@@ -11,7 +11,7 @@ function getRandomRGBColor() {
     return `rgb(${r},${g},${b})`;
   }
   
-  colorBox.addEventListener('mouseover', () => {
+  colorBox.addEventListener('mousedown', () => {
     const randomColor = getRandomRGBColor();
     colorBox.style.backgroundColor = randomColor;
   })

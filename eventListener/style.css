@@ -1,0 +1,15 @@
+#innerDiv{
+    background-color: aquamarine;
+    width: 100px;
+    height:100px;
+    border: 1px solid;
+    
+}
+
+#outerDiv{
+    background-color: rgb(45, 45, 154);
+    width: 200px;
+    height:200px;
+    border: 2px solid;
+    
+}
